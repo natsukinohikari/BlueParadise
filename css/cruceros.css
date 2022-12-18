@@ -1,0 +1,100 @@
+/* Estilos para la página de cruceros */
+
+/* Cuerpo general */
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(241, 241, 241);
+}
+
+/* Contenedor principal */
+#contenedor {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Cajas para centrar el contenido */
+#centrar {
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Caja del formulario */
+#centrar form {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border: 2px solid gray;
+}
+
+/* Agrupaciones de las cajas del formulario */
+form #agrup {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+/* Label */
+form label, form select {
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+/* Estilo para el botón de submit del formulario */
+#submit {
+    background-color: aliceblue;
+    border: 1px solid rgba(96, 218, 240, 0.8);
+    border-radius: 12px;
+    height: 45px;
+    width: 250px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#centrar > div {
+    max-width: 900px;
+}
+
+.datos {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+/* Imagen de los barcos */
+#img_barco {
+    height: 300px;
+    width: 350px;
+}
+
+.datos div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3em;
+    justify-content: space-around;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.costo {
+    font-size: 20px;
+    color: red;
+}
+
+.datos a:hover {
+    text-decoration: none;
+}
+
+.datos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}

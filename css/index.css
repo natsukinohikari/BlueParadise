@@ -1,0 +1,13 @@
+/* Estilo de la página de inicio */
+
+/* Cuerpo de la página */
+body {
+    background: rgb(241, 241, 241);
+    margin: 0;
+    padding: 0;
+}
+
+/* Imágenes del carousel */
+.carousel-item > img {
+    height: 870px;
+}

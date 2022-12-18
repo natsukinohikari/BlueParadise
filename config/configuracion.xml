@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuracion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="correo.xsd">
+    <ip>127.0.0.1</ip>
+    <nombre>blueparadise</nombre>
+    <usuario>root</usuario>
+    <clave></clave>
+</configuracion>

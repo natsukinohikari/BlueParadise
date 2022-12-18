@@ -1,0 +1,58 @@
+/* Hoja de estilos para la página acerca de nosotros */
+
+/* Sección con la información */
+section {
+    margin: 1.5em 0;
+    padding: 1em;
+}
+
+/* Título */
+section h2 {
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
+
+/* Disposición de cada artí­culo */
+article {
+    display: flex !important;
+    flex: column;
+    justify-content: center;
+    margin: 1em;
+    border-bottom: 3px rgb(127, 240, 255) solid;
+}
+
+/* Textos de cada artí­culo */
+.articulo {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.articulo h3 {
+    margin-left: 2px;
+}
+
+.articulo p {
+    margin: 1em;
+    font-size: 14px;
+}
+
+.articulo p a, .articulo p a:hover {
+    color: black;
+    text-decoration: none;
+}
+/* Especificaciones de las imágenes */
+#img {
+    margin-bottom: 0.5em;
+    width: 450px;
+    height: 325px;
+    border-radius: 5px;
+    box-shadow: 5px gray;
+}
+
+/* Tamaño y estilo de la letra */
+h3 {
+    font-size: 18px;
+    color: black;
+}
+

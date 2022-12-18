@@ -1,0 +1,84 @@
+/* Hoja de estilo para el login */
+
+/* Cuerpo de la página */
+body {
+    background: rgb(241, 241, 241);
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+#contenedor {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor para organizar el interior */
+#contenido {
+    display: flex;
+    flex-direction: row;
+    margin: 125px 0;
+}
+
+/* Imagen ilustrativa junto al formulario */
+#img {
+    height: 400px;
+    width: 400px;
+}
+
+/* Contenedor que incluye formulario y otros datos de interés */
+#formulario {
+    background-color: rgb(16, 185, 236);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo para los contenedores dentro del formulario */
+.control {
+    display: flex;
+    flex-direction: column;
+    margin: 2px 5px;
+    padding: 2px 5px;
+}
+
+/* Estilo para los labels del formulario */
+label {
+    margin: 3px 0px;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+
+/* Ratón encima de elementos del formulario */
+#submit:hover {
+    border-color: rgba(96, 240, 221, 0.8);
+}
+
+/* Estilo para el botón de submit del formulario */
+#submit {
+   background-color: aliceblue;
+   border: 4px solid;
+   border-color: rgba(96, 218, 240, 0.8);
+   border-radius: 12px;
+   height: 60px;
+   width: 250px;
+   margin: 15px;
+   padding: 5px;
+   font-size: 25px;
+   font-weight: bold;
+   text-align: center;
+}
+
+/* Pie de página */
+footer {
+    position: absolute;
+    bottom: 0;
+}

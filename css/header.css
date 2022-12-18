@@ -1,0 +1,62 @@
+/* Cabecera */
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(127, 240, 255);
+    display: flex !important;
+    flex-direction: row;
+}
+
+/* Parte del logo en cabecera */
+header #imglogo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+#logo {
+    width: 300px;
+    height: 100px;
+}
+
+/* Parte del nav en cabecera */
+header nav {
+    padding-top: 25px;
+    width: 50%;
+}
+
+/* Elemento separado para login */
+header #link {
+    padding-top: 25px;
+    width: 20%;
+}
+
+/* Disposición de elementos del nav */
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Borrado de puntos de la lista */
+nav ul li {
+    list-style: none;
+    margin-right: 75px;
+}
+
+/* Enlaces de la cabecera */
+nav a, nav a:hover, #link a, #link a:hover {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Enlace de la zona inicio sesión y apartado de perfil */
+#link a, #link a:hover {
+    font-size: 20px;
+}
+
+/* Menú desplegable cuando se está logueado */
+.dropdown-menu, .dropdown-menu a:hover {
+    background-color: rgb(127, 240, 255) !important;
+}
